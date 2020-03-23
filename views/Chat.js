@@ -39,8 +39,7 @@ class Chat extends Component {
         appDispatcher.register((payload) => {
             if (payload.action == Constant.ACTION.SELECT_CONTACT) {
                 this.setState({address: payload.data, 
-                    publicKey: this.account.storageManager.contacts[payload.data].publicKey,
-                    messages: this.account.storageManager.contacts[payload.data].messages});
+                    publicKey: this.account.storageManager.contacts[payload.data].publicKey,                    messages: this.account.storageManager.contacts[payload.data].messages});
                 
             } else if (this.state.address != "" && payload.action == Constant.EVENT.MESSAGES_UPDATED) {
                 if (payload.data == undefined || payload.data == this.state.address) {
