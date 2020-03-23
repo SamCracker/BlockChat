@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { Dispatcher } from 'flux';\nvar appDispatcher = new Dispatcher();\nexport default appDispatcher;","map":null,"metadata":{},"sourceType":"module"}

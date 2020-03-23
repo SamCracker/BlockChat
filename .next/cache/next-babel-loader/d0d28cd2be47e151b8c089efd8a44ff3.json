@@ -1,0 +1,1 @@
+{"ast":null,"code":"import Web3 from 'web3';\nimport Config from '../support/Config';\nlet web3;\nconst provider = new Web3.providers.HttpProvider(Config.ENV.ProviderUrl);\nweb3 = new Web3(provider);\nexport default web3;","map":null,"metadata":{},"sourceType":"module"}
