@@ -1,12 +1,13 @@
 const HDWalletProvider = require('truffle-hdwallet-provider');
 const Web3 = require('web3');
-const compiledFactory = require('./build/EtherChat.json');
+const compiledFactory = require('./build/BlockChat.json');
 const interface = compiledFactory.interface;
 const bytecode = compiledFactory.bytecode;
+require('dotenv').config();
 
 const provider = new HDWalletProvider(
-    'balcony grunt cabin dad purse execute grape combine puppy document hole receive island inquiry air',
-    'https://rinkeby.infura.io/v3/10330c483afc4a93a939de9dac39939d'
+    process.env.MNEMONIC,
+    `https://rinkeby.infura.io/v3/${process.env.INFURA_API_KEY}`
 );
 
 console.log(provider);

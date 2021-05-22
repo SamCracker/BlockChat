@@ -1,5 +1,5 @@
 import web3 from '../ethereum/web3';
-import compiledContract from '../ethereum/build/EtherChat.json';
+import compiledContract from '../ethereum/build/BlockChat.json';
 import TransactionsManager from './TransactionManager';
 import appDispatcher from './AppDispatcher';
 import Config from '../support/Config';

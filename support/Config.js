@@ -11,14 +11,14 @@ module.exports.NETWORK_LIST = [
         name: 'Ropsten Test Net',
         contractAddress: '0x97e1dc3169a01b51b6d7d7e11c14308ead4692e2',
         explorerUrl: 'https://ropsten.etherscan.io/',
-        providerUrl: 'https://ropsten.infura.io/v3/10330c483afc4a93a939de9dac39939d'
+        providerUrl: 'https://ropsten.infura.io/v3/dc4d16ddb6734f019936a009042e2f31'
     },
     {
         id: 4,
         name: 'Rinkeby Test Net',
-        contractAddress: '0xa8d27Eda6518Ac6CcF3eb7Ec100B1fc8ef850e80',
+        contractAddress: '0x79f3623E48562c7c8CF091C5eF0DD919688E2371',
         explorerUrl: 'https://rinkeby.etherscan.io/',
-        providerUrl: 'https://rinkeby.infura.io/v3/10330c483afc4a93a939de9dac39939d'
+        providerUrl: 'https://rinkeby.infura.io/v3/dc4d16ddb6734f019936a009042e2f31'
     }
 ]
 
